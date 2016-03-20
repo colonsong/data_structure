@@ -7,7 +7,7 @@
 */
 function fibonacci($n)
 {
-	$pre = 0;
+	$pre = 1;
 	$prePre = 0;
 	$now = $n;
 	for( $i=2; $i <= $n; $i++ )
@@ -22,5 +22,5 @@ function fibonacci($n)
 
 for($n = 0; $n <= 10; $n++)
 {
-	echo " {$n}月" . fibonacci($n) . '對 ';
+	echo  fibonacci($n) . ' ';
 }
